@@ -1,0 +1,114 @@
+.form-box {
+  display: table;
+  margin: auto;
+  text-align: center;
+}
+
+.input-box input {
+  outline: 0;
+  padding: 6px 10px;
+  margin: 5px 4px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.counter-btn button {
+  padding: 10px 25px;
+}
+
+.counter-btn {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-box {
+  text-align: center;
+}
+.todoList li {
+  list-style: none;
+  border-radius: 4px;
+  background-color: #ffffffed;
+  color: #8b758b;
+  padding: 8px 10px;
+}
+
+ul.todoList {
+  padding: 20px 0 0;
+  text-align: center;
+  display: table;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-inner {
+  text-align: center;
+}
+
+.todo-main {
+  text-align: center;
+}
+
+body {
+  /* margin: 0; */
+  background-color: #a15a5a66;
+}
+
+.todo-inner input {
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 4px;
+  margin: 0 20px 0 0;
+  outline: 0;
+}
+button {
+  background-color: #320064;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 8px;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+}
+
+ul.todoList button {
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #320064;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 0;
+  margin: 0 0 0 15px;
+}
+
+.delete_btn {
+  margin: 0 20px 0;
+}
+button:hover {
+  background-color: #000 !important;
+}
+.table-add-row td {
+  padding: 6px 10px;
+  margin: 5px 4px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.table-item-row td {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+.validate-error {
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+  display: block;
+}
+
